@@ -9,9 +9,9 @@ import re
 
 WD = {"monday": 0, "mon": 0, "tuesday": 1, "tue": 1, "tues": 1, "wednesday": 2, "wed": 2, "thursday": 3, "thu": 3, "thur": 3, "thurs": 3, "friday": 4, "fri": 4, "saturday": 5, "sat": 5, "sunday": 6, "sun": 6}
 NUM = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
-COMMIT = re.compile(r"\b(i'll|i will|we'll|we will|let me|i can|we can|i'm going to|we're going to)\b", re.I)
+COMMIT = re.compile(r"\b(happy to|i'll|i will|we'll|we will|let me|i can|we can|i'm going to|we're going to)\b", re.I)
 BLOCK_VERB = r"(blocking us|blocked on|can't proceed until|waiting on)"
-HEDGE = re.compile(r"\b(might|maybe|perhaps|could|someday|at some point|eventually|if you|if we|can't|cannot|won't|unable|roadmap|would love)\b", re.I)
+HEDGE = re.compile(r"\b(not sure|think about|might|maybe|perhaps|could|someday|at some point|eventually|if you|if we|can't|cannot|won't|unable|roadmap|would love)\b", re.I)
 REQUEST = re.compile(r"^(?:\w+[, ]+)?(can you|could you|please|we need you to|need you to)\b", re.I)
 DONE = re.compile(r"\b(done|all set|sent|shipped|fixed|raised|scheduled|received|got it|resolved|deployed|shared)\b", re.I)
 STOP = set("the a an to of for and your our you we i it that this is are be will by on in at with about".split())

@@ -1,0 +1,30 @@
+{
+ "dev": {
+  "gold_items": 1997,
+  "found": 1988,
+  "extra_items": 0,
+  "kw_found": 1519,
+  "kw_extra": 0,
+  "kind_right": 1988,
+  "dated": 1402,
+  "due_right": 1402,
+  "closure_right": 1988,
+  "overdue_gold": 574,
+  "overdue_found": 572,
+  "overdue_false": 0
+ },
+ "held_out": {
+  "gold_items": 1986,
+  "found": 1979,
+  "extra_items": 0,
+  "kw_found": 1374,
+  "kw_extra": 75,
+  "kind_right": 1979,
+  "dated": 1423,
+  "due_right": 1423,
+  "closure_right": 1979,
+  "overdue_gold": 586,
+  "overdue_found": 584,
+  "overdue_false": 0
+ }
+}
